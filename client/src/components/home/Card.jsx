@@ -43,7 +43,7 @@ const Card = () => {
                     Music has many benefits it provides on the human health
                     and mood, and all benefits are useful. As the answer to
                     all of that, you should listen to music daily, rather than
-                    occasionally.{" "}
+                    occasionally.
                   </p>
                   <a href="http://localhost:3000/products" className="btn btn-primary">
                     Products...

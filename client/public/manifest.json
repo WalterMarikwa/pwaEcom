@@ -1,25 +1,27 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Instru2.0",
+  "name": "Instrument2.0",
+  "start_url": "./index.html",
+  "display": "standalone",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "logo/logo.png",
+      "sizes": "192x192",
+      "type": "images/png"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }	    
+      "src": "logo/logo2.png",
+      "sizes": "512x512",
+      "type": "images/png"
+    }
   ],
-  "start_url": ".",
-  "display": "standalone",
+  "apple-touch-icon": [
+    {
+      "src": "logo/logo.png",
+      "sizes": "192x192",
+      "type": "images/png"
+    }
+  ],
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }

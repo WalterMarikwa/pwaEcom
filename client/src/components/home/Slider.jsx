@@ -12,7 +12,6 @@ const Slider = () => {
             <img
               src="https://cdn.pixabay.com/photo/2016/01/10/21/05/mic-1132528__480.jpg"
               className="d-block w-100"
-              className="pic-slide"
               alt="..."
             />
             <h1>
@@ -24,7 +23,6 @@ const Slider = () => {
             <img
               src="https://cdn.pixabay.com/photo/2018/06/30/09/29/music-3507317__480.jpg"
               className="d-block w-100"
-              className="pic-slide"
               alt="..."
             />
             <h1>Explore the real mood of music.</h1>
@@ -33,7 +31,6 @@ const Slider = () => {
             <img
               src="https://cdn.pixabay.com/photo/2016/11/22/19/15/dark-1850120__480.jpg"
               className="d-block w-100"
-              className="pic-slide"
               alt="..."
             />
             <h1>Playing Instruments made easier.</h1>

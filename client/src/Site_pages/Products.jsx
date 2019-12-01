@@ -65,7 +65,6 @@ class Products extends React.Component {
 
         <div className="card">
           <div className="row">
-            <div className="cards" className="col-sm-12">
               <div className="row">
                 {productsToList.map((product, index) => {
                   return (
@@ -88,7 +87,6 @@ class Products extends React.Component {
                   );
                 })}
               </div>
-            </div>
           </div>
         </div>
       </div>
