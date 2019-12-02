@@ -29,63 +29,65 @@ class ValidateForm extends React.Component {
         <div style={{ textAlign: "center" }}>
           <h2 style={{ color: "gold" }}>Contact Us</h2>
         </div>
-        <div className="row">
-          <div className="column">
-            <form className=".needs-validation" onSubmit={this.handleSubmit}>
-              <label htmlFor="fname" style={{ color: "black" }}>
-                First Name
+        <div className="container-fluid">
+          <div className="row">
+            <div className="column">
+              <form className=".needs-validation" onSubmit={this.handleSubmit}>
+                <label htmlFor="fname" style={{ color: "black" }}>
+                  First Name
               </label>
-              <input
-                type="text"
-                id="fname"
-                name="firstname"
-                onChange={this.handleInputChange}
-                placeholder="Your name.."
-                required
-              />
-              <label htmlFor="lname" style={{ color: "black" }}>
-                Last Name
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  onChange={this.handleInputChange}
+                  placeholder="Your name.."
+                  required
+                />
+                <label htmlFor="lname" style={{ color: "black" }}>
+                  Last Name
               </label>
-              <input
-                type="text"
-                id="lname"
-                name="lastname"
-                onChange={this.handleInputChange}
-                placeholder="Your last name.."
-                required
-              />
-              <label htmlFor="lname" style={{ color: "black" }}>
-                Email
+                <input
+                  type="text"
+                  id="lname"
+                  name="lastname"
+                  onChange={this.handleInputChange}
+                  placeholder="Your last name.."
+                  required
+                />
+                <label htmlFor="lname" style={{ color: "black" }}>
+                  Email
               </label>
-              <input
-                type="text"
-                id="lname"
-                name="email"
-                onChange={this.handleInputChange}
-                placeholder="Your email.."
-                required
-              />
-              <label htmlFor="subject" style={{ color: "black" }}>
-                Subject
+                <input
+                  type="text"
+                  id="lname"
+                  name="email"
+                  onChange={this.handleInputChange}
+                  placeholder="Your email.."
+                  required
+                />
+                <label htmlFor="subject" style={{ color: "black" }}>
+                  Subject
               </label>
-              <textarea
-                id="subject"
-                name="subject"
-                placeholder="Write something.."
-                onChange={this.handleInputChange}
-                style={{ height: "170px" }}
+                <textarea
+                  id="subject"
+                  name="subject"
+                  placeholder="Write something.."
+                  onChange={this.handleInputChange}
+                  style={{ height: "170px" }}
                 // defaultValue={""}
-              />
-              <p>
-                <button
-                  onClick={this.handleSubmit}
-                  type="button"
-                  className="btn btn-primary"
-                >
-                  Submit
+                />
+                <p>
+                  <button
+                    onClick={this.handleSubmit}
+                    type="button"
+                    className="btn btn-primary"
+                  >
+                    Submit
                 </button>
-              </p>
-            </form>
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       </div>

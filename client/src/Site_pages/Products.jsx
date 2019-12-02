@@ -64,7 +64,7 @@ class Products extends React.Component {
         
 
         <div className="card">
-          <div className="row">
+          <div className="container-fluid">
               <div className="row">
                 {productsToList.map((product, index) => {
                   return (

@@ -20,8 +20,8 @@ export default class Admin extends React.Component {
   render() {
     return (
       <div className="card">
+        <div className="container-fluid">
         <div className="row">
-          <div className="row">
             {this.state.products.map((product, index) => {
               return (
                 <div className="col-sm-4 col-sm-4"
