@@ -5,6 +5,11 @@
   "display": "standalone",
   "icons": [
     {
+      "src": "/logo/logo_144.png",
+      "sizes": "144x144",
+      "type": "images/png"
+    },
+    {
       "src": "/logo/logo_192.png",
       "sizes": "192x192",
       "type": "images/png"
