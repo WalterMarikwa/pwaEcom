@@ -18,7 +18,7 @@ A minimal full-stack PWA login/authorization app using the MERN stack (MongoDB f
 - Stay logged in when they close the app or refresh the page
 - Log out
 
-## Screenshots
+## Screenshots pwa
 ![Working Admin App](audit/after.png)
 
 ## Support
