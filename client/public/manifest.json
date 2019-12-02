@@ -17,7 +17,7 @@
   ],
   "apple-touch-icon": [
     {
-      "src": "/logo/logo.png",
+      "src": "/logo/logo_192.png",
       "sizes": "192x192",
       "type": "images/png"
     }
