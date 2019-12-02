@@ -1,30 +1,30 @@
 {
   "short_name": "Instru2.0",
   "name": "Instrument2.0",
-  "start_url": "/",
+  "start_url": "/index.html",
   "display": "standalone",
   "icons": [
     {
       "src": "/logo/logo_144.png",
       "sizes": "144x144",
-      "type": "images/png"
+      "type": "image/png"
     },
     {
       "src": "/logo/logo_192.png",
       "sizes": "192x192",
-      "type": "images/png"
+      "type": "image/png"
     },
     {
       "src": "/logo/logo_512.png",
       "sizes": "512x512",
-      "type": "images/png"
+      "type": "image/png"
     }
   ],
   "apple-touch-icon": [
     {
       "src": "/logo/logo_192.png",
       "sizes": "192x192",
-      "type": "images/png"
+      "type": "image/png"
     }
   ],
   "theme_color": "#000000",
