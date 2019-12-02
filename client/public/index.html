@@ -4,16 +4,15 @@
     <meta charset="utf-8" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="icon" sizes="192x192" href="./logo/logo.png" />
+    <link rel="icon" sizes="512x512" href="./logo/logo.png" />
     <link rel="apple-touch-icon" href="./logo/logo.png" />
     <meta name="theme-color" content="#000000" />
-
     <meta
       name="description"
       content="Online shopping services for Instruments."
     />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -54,6 +53,7 @@
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function() {
           navigator.serviceWorker.register("/service-worker.js");
+          console.log(`Your service worker is found.`)
         });
       }
     </script>
