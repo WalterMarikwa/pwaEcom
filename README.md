@@ -20,6 +20,7 @@ A minimal full-stack PWA login/authorization app using the MERN stack (MongoDB f
 
 ## Screenshots pwa
 ![Working Admin App](audit/after.png)
+![Working Admin App](audit/iOS.png)
 
 ## Support
 If you need help: Get in touch with me at ```waltermarikwa02@gmail.com``` or visit ```https://www.youtube.com/watch?v=7CqJlxBYj-M&t=1503s```.
